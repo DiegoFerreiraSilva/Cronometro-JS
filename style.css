@@ -1,0 +1,60 @@
+* {
+    padding: 0;
+    margin: 0 auto;
+}
+
+body {
+    background: rgb(32, 26, 26);
+}
+
+div {
+    background: #fff;
+    max-width: 400px;
+    width: 100%;
+    margin-top: 150px;
+    text-align: center;
+    padding: 20px;
+    font-size: larger;
+    box-shadow: 0 0 5px #fff;
+}
+
+input[type="button"] {
+    width: 70px;
+    height: 30px;
+    border-radius: 25px;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI';
+    font-size: 1em;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.button-start {
+    background-color: lightgreen;
+}
+
+.button-start:hover {
+    background-color: rgb(78, 238, 78);
+}
+
+.button-pause {
+    background-color: lightblue;
+}
+
+.button-pause:hover {
+    background-color: rgb(70, 183, 221);
+}
+
+.button-finish {
+    background-color: lightcoral;
+}
+
+.button-finish:hover {
+    background-color: rgb(235, 75, 75);
+}
+
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
